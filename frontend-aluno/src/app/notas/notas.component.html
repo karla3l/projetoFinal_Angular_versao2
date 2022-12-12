@@ -1,0 +1,10 @@
+<form>
+Nota 01: <input #nota1 type="'text"/><br>
+Nota 02: <input #nota2 type="'text"/><br>
+Nota 03: <input #nota3 type="'text"/><br>
+<input type="button" value="Somar"(click)="somar(nota1.value, nota2.value, nota3.value)"/> <br><br>
+Resultado da soma das notas:<br>
+<input type="'text" [value]="resultado" readonly/><br>
+Média final:<br>
+<input type="'text" [value]="media" readonly/><br>
+</form>

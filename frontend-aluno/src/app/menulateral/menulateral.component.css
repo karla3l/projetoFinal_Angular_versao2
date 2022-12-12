@@ -1,0 +1,25 @@
+mat-grid-list {
+background: rgb(0, 4, 253);
+left: 50px;
+width: 30vh;
+height: 25vh;
+  position:absolute;
+top: 15%;
+}
+
+mat-grid-tile{
+text-align: center;
+color: aliceblue;
+font-style: italic;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 0.5cm;
+}
+p{
+  text-align: center;
+  color: aliceblue;
+  /* font-style: italic; */
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 0.5cm;
+
+
+  }
